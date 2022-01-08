@@ -8,7 +8,7 @@ export async function handler() {
   );
 
   const params: UpdateCommandInput = {
-    TableName: 'test_table',
+    TableName: process.env.TEST_TABLE,
     Key: {
       username: 'jason',
     },
