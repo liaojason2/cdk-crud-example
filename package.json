@@ -46,6 +46,7 @@
   "dependencies": {
     "@aws-sdk/client-dynamodb": "^3.45.0",
     "@aws-sdk/lib-dynamodb": "^3.45.0",
+    "@softchef/lambda-events": "^1.0.112",
     "aws-cdk-lib": "^2.1.0",
     "constructs": "^10.0.5"
   },

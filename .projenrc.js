@@ -7,6 +7,7 @@ const project = new awscdk.AwsCdkTypeScriptApp({
     'aws-cdk-lib',
     '@aws-sdk/client-dynamodb',
     '@aws-sdk/lib-dynamodb',
+    '@softchef/lambda-events',
   ],
   /* Runtime dependencies of this module. */
   // description: undefined,  /* The description is just a string that helps people understand the purpose of the package. */
